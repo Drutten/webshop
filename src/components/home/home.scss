@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+.home {
+    padding-top: 20px;
+    h2 {
+        font-family: 'Kalam', cursive;
+        @media (max-width: 599px){
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+}

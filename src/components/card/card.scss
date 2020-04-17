@@ -1,0 +1,54 @@
+
+.card {
+    width: 180px;
+    margin: 10px;
+    font-size: 14px;
+    color: rgb(55, 47, 63);
+    background-color: rgba(255,255,255, 0.6);
+    border: 1px solid rgba(128, 128, 133, 0.3);
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px rgba(62, 62, 65, 0.8);
+
+
+    
+    .card-image {
+        margin: 0 auto;
+        width: 100%;
+        min-height: 290px;
+        
+
+        @media (max-width: 599px){
+            min-height: 0;   
+        }
+        
+
+        img {
+            width: 100%;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+        }
+    }
+
+    .card-title {
+        padding: 4px;
+        line-height: 16px;
+        min-height: 62px;
+
+        @media (max-width: 599px){
+            min-height: 0;   
+        }
+        
+    }
+    .card-price {
+        padding: 6px 4px 20px;
+    }
+
+    
+}
+.card:hover {
+    background-color: rgba(255,255,255, 1);
+    border: 1px solid rgba(128, 128, 133, 0.8);
+    opacity: 0.8;
+    cursor: pointer;
+    box-shadow: 1px 5px 5px rgba(62, 62, 65, 1);
+}

@@ -1,0 +1,26 @@
+
+.App {
+  box-sizing: border-box;
+  background-color: rgb(228, 240, 227);
+  text-align: center;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 10px;
+
+  @media (max-width: 400px){
+    padding: 6px;
+  }
+  
+  .App-container {
+    
+    min-height: 90vh;
+    color: rgb(55, 47, 63);
+
+  }
+  footer {
+    font-size: 14px;
+    padding-top: 8px;
+  }
+
+}
+

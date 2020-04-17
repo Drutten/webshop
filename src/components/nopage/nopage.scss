@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+.nopage {
+
+    h1 {
+        margin: 60px;
+        font-family: 'Satisfy', cursive;
+    }
+
+    .go-home-link {
+        text-decoration: none;
+
+        .shop-btn {
+            border: 1px solid rgba(83, 116, 121, 0.3);
+            border-radius: 3px;
+            padding: 10px 16px;
+            cursor: pointer;
+        }
+    }
+
+    .nopage-image {
+        width: 200px;
+        margin: 40px auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+}

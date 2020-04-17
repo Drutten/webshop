@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+.message {
+
+    font-family: 'Kalam', cursive;
+
+    padding: 20px;
+    & > div {
+        font-size: 1.5em;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+} 

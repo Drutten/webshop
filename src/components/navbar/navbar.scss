@@ -1,0 +1,35 @@
+
+.mynav {
+    background-color: rgba(255,255,255,0.3);
+
+
+    .link:hover {
+        color: rgba(38, 46, 38, 1);
+    }
+    
+
+    .logo {
+        width: 50px;
+        margin-left: 30px;
+
+        img {
+            width: 100%;
+        }
+        @media (max-width: 599px){
+            display: none;  
+        }
+    
+    }
+
+
+    .basket {
+        margin: 0 10px;
+
+        .basket-icon {
+            margin-left: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+
+}

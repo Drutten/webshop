@@ -1,0 +1,19 @@
+@import './variables';
+
+.movie-shop-button {
+    border: none;
+    border-radius: 3px;
+    background-color: $brownish;
+    color: $light-text;
+    font-family: $roboto-font;
+}
+
+.movie-shop-button:hover {
+    background-color: $brownish-hover;
+    color: $light-text-hover;   
+}
+
+.movie-shop-button:active {
+    background-color: $brownish-active;
+}
+
